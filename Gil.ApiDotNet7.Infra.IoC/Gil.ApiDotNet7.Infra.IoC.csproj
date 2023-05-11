@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Gil.ApiDotNet7.Domain\Gil.ApiDotNet7.Domain.csproj" />
+    <ProjectReference Include="..\Gil.ApiDotNet7.Infra.Data\Gil.ApiDotNet7.Infra.Data.csproj" />
+    <ProjectReference Include="..\Gil.ApiDotNet7.Application\Gil.ApiDotNet7.Application.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>

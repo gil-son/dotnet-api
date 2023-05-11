@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj": {}
+  },
+  "projects": {
+    "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj",
+        "projectName": "Gil.ApiDotNet7.Infra.IoC",
+        "projectPath": "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj",
+        "packagesPath": "/home/gilson/.nuget/packages/",
+        "outputPath": "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Infra.IoC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gilson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
