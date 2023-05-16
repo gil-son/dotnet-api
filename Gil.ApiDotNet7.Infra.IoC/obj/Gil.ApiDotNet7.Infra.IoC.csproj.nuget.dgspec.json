@@ -1,17 +1,74 @@
 {
   "format": 1,
   "restore": {
-    "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj": {}
+    "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj": {}
   },
   "projects": {
-    "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj": {
+    "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Application/Gil.ApiDotNet7.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj",
-        "projectName": "Gil.ApiDotNet7.Infra.IoC",
-        "projectPath": "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj",
+        "projectUniqueName": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Application/Gil.ApiDotNet7.Application.csproj",
+        "projectName": "Gil.ApiDotNet7.Application",
+        "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Application/Gil.ApiDotNet7.Application.csproj",
         "packagesPath": "/home/gilson/.nuget/packages/",
-        "outputPath": "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Infra.IoC/obj/",
+        "outputPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gilson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj": {
+                "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj",
+        "projectName": "Gil.ApiDotNet7.Domain",
+        "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj",
+        "packagesPath": "/home/gilson/.nuget/packages/",
+        "outputPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gilson/.nuget/NuGet/NuGet.Config"
@@ -26,6 +83,126 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.Data/Gil.ApiDotNet7.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.Data/Gil.ApiDotNet7.Infra.Data.csproj",
+        "projectName": "Gil.ApiDotNet7.Infra.Data",
+        "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.Data/Gil.ApiDotNet7.Infra.Data.csproj",
+        "packagesPath": "/home/gilson/.nuget/packages/",
+        "outputPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.Data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gilson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj": {
+                "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj",
+        "projectName": "Gil.ApiDotNet7.Infra.IoC",
+        "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj",
+        "packagesPath": "/home/gilson/.nuget/packages/",
+        "outputPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.IoC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gilson/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Application/Gil.ApiDotNet7.Application.csproj": {
+                "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Application/Gil.ApiDotNet7.Application.csproj"
+              },
+              "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj": {
+                "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj"
+              },
+              "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.Data/Gil.ApiDotNet7.Infra.Data.csproj": {
+                "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.Data/Gil.ApiDotNet7.Infra.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

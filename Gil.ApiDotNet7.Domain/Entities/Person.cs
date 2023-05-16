@@ -1,4 +1,5 @@
 using System;
+using Gil.ApiDotNet7.Domain.Validations;
 namespace Gil.ApiDotNet7.Domain.Entities
 {
     public sealed class Person
@@ -16,7 +17,7 @@ namespace Gil.ApiDotNet7.Domain.Entities
 
         public Person(int id, string document, string phone)
         {
-            DomainValidationException.When(id < 0, "Is required an Id more than zero");
+            // DomainValidationException.When(id < 0, "Is required an Id more than zero");
             Id = id;
             Validation(document, name, phone);
 

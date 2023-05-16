@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj": {}
+    "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj": {}
   },
   "projects": {
-    "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj": {
+    "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj",
+        "projectUniqueName": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj",
         "projectName": "Gil.ApiDotNet7.Domain",
-        "projectPath": "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj",
+        "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj",
         "packagesPath": "/home/gilson/.nuget/packages/",
-        "outputPath": "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Domain/obj/",
+        "outputPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/gilson/.nuget/NuGet/NuGet.Config"

@@ -1,4 +1,5 @@
 using System;
+using Gil.ApiDotNet7.Domain.Validations;
 namespace Gil.ApiDotNet7.Domain.Entities
 {
     public sealed class Product

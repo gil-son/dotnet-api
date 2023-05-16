@@ -107,6 +107,57 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Gil.ApiDotNet7.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Gil.ApiDotNet7.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Gil.ApiDotNet7.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gil.ApiDotNet7.Application.dll": {}
+        }
+      },
+      "Gil.ApiDotNet7.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Gil.ApiDotNet7.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gil.ApiDotNet7.Domain.dll": {}
+        }
+      },
+      "Gil.ApiDotNet7.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Gil.ApiDotNet7.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Gil.ApiDotNet7.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gil.ApiDotNet7.Infra.Data.dll": {}
+        }
+      },
+      "Gil.ApiDotNet7.Infra.IoC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Gil.ApiDotNet7.Application": "1.0.0",
+          "Gil.ApiDotNet7.Domain": "1.0.0",
+          "Gil.ApiDotNet7.Infra.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Gil.ApiDotNet7.Infra.IoC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Gil.ApiDotNet7.Infra.IoC.dll": {}
+        }
       }
     }
   },
@@ -451,10 +502,31 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "Gil.ApiDotNet7.Application/1.0.0": {
+      "type": "project",
+      "path": "../Gil.ApiDotNet7.Application/Gil.ApiDotNet7.Application.csproj",
+      "msbuildProject": "../Gil.ApiDotNet7.Application/Gil.ApiDotNet7.Application.csproj"
+    },
+    "Gil.ApiDotNet7.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj",
+      "msbuildProject": "../Gil.ApiDotNet7.Domain/Gil.ApiDotNet7.Domain.csproj"
+    },
+    "Gil.ApiDotNet7.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../Gil.ApiDotNet7.Infra.Data/Gil.ApiDotNet7.Infra.Data.csproj",
+      "msbuildProject": "../Gil.ApiDotNet7.Infra.Data/Gil.ApiDotNet7.Infra.Data.csproj"
+    },
+    "Gil.ApiDotNet7.Infra.IoC/1.0.0": {
+      "type": "project",
+      "path": "../Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj",
+      "msbuildProject": "../Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Gil.ApiDotNet7.Infra.IoC >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.5",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -465,11 +537,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Api/Gil.ApiDotNet7.Api.csproj",
+      "projectUniqueName": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Api/Gil.ApiDotNet7.Api.csproj",
       "projectName": "Gil.ApiDotNet7.Api",
-      "projectPath": "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Api/Gil.ApiDotNet7.Api.csproj",
+      "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Api/Gil.ApiDotNet7.Api.csproj",
       "packagesPath": "/home/gilson/.nuget/packages/",
-      "outputPath": "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Api/obj/",
+      "outputPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gilson/.nuget/NuGet/NuGet.Config"
@@ -483,7 +555,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj": {
+              "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

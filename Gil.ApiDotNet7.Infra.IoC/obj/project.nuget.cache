@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h+bPwuDFDoBWLxOAobdVLSBREbuOb/9xZ4i2pRfVRZfLLMAyqcF9l5xiRZia005ner5FOIbWYgx2yW8S4oSeRQ==",
+  "dgSpecHash": "4+0uBT8DYZkdzGVFA7nfgTebSUELlY0297BiEalqE43GTYEQ+bX3s7uOfGMUb0anfn/JIDVAmynAwtMU2iN03Q==",
   "success": true,
-  "projectFilePath": "/home/gilson/repositories/csharp/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj",
+  "projectFilePath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

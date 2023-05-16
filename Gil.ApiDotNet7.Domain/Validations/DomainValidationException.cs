@@ -1,9 +1,9 @@
 using System;
 namespace Gil.ApiDotNet7.Domain.Validations
 {
-    public class DomainValidationExceptionException : Exception
+    public class DomainValidationException : Exception
     {
-        public DomainValidationExceptionException(string error) : base(error) 
+        public DomainValidationException(string error) : base(error) 
         { 
 
         }
@@ -11,7 +11,7 @@ namespace Gil.ApiDotNet7.Domain.Validations
         public static void When(bool hasError, string message)
         {
             if(hasError)
-                throw new DomainValidationExceptionException(message);
+                throw new DomainValidationException(message);
         }
     }
 }
