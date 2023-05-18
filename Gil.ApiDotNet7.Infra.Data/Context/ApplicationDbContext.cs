@@ -12,8 +12,9 @@ namespace Gil.ApiDotNet7.Infra.Data.Context
            If the name of properties from entity is different than properties from database
            Is necessary use Maps to map
         */
-        public DbSet<Person> People { get; set }
-
+        public DbSet<Person> People { get; set; }
+        public DbSet<Product> Product { get; set; }
+        public DbSet<Purchase> Purchase { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
