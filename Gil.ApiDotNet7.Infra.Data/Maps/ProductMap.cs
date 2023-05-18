@@ -4,35 +4,35 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 namespace Gil.ApiDotNet7.Infra.Data.Maps
 {
-    public class PersonMap : IEntityTypeConfiguration<Person>
+    public class ProductMap : IEntityTypeConfiguration<Product>
     {
          /* The entity required be mapped. 
            If the name of properties from entity is different than properties from database
            Is necessary use Maps to map
         */
-        public void Configure(EntityTypeBuilder<Person> builder)
+        public void Configure(EntityTypeBuilder<Product> builder)
         {
 
 
-            builder.ToTable("tb_person");
+            builder.ToTable("tb_product");
             builder.HasKey(c => c.Id);
 
             builder.Property(c => c.Id)
-                .HasColumnName("c_id_person")
+                .HasColumnName("c_id_product")
                 .UseIdentityColumn();
 
             builder.Property(c => c.Name)
                 .HasColumnName("c_name");
 
-            builder.Property(c => c.Document)
-                .HasColumnName("c_document");
-
-            builder.Property(c => c.Phone)
-                .HasColumnName("c_celphone");
+            builder.Property(c => c.CodErp)
+                .HasColumnName("c_coderp");
+ 
+            builder.Property(c => c.Price)
+                .HasColumnName("c_price");
 
             builder.HasMany(x => x.Purchases)
-                .WithOne(x => x.Person)
-                .HasForeignKey(x => x.PersonId);
+                .WithOne(x => x.Product)
+                .HasForeignKey(x => x.ProductId);
 
         }
     }
