@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AuLZ2GZr+FtPAEfK6ftjmfviJBkN4FDqzq6buppkCso98uJ578IOxGxDdLifrLlSqZ/GZrmzkFMqVdOjEYP9rw==",
+  "dgSpecHash": "foqh9LsqsgFXgeSLL7EzraLER1a1F7Octdqs+v9zyOpBBk3SPj+fU8shD/v9NnXdp5V9qvZ7dDc6LSCz1sOm9A==",
   "success": true,
   "projectFilePath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Application/Gil.ApiDotNet7.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/gilson/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512"
+  ],
   "logs": []
 }
