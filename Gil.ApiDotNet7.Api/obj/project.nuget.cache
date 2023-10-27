@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "W2jHYx4Puxo5BpLniMHOMM1f3BnroD16/VhTPwQdJD46XVWFmYAYOPugpxwa5IHchkv3XAEf7ufB0tcpWihmUQ==",
+  "dgSpecHash": "Cspx4gUvRFz8GUKasbYL7KyjyK+Pg7+TBWDwQhyxEv+LlB9cbiWx2ZhVVe36F+zG7EgTfBsesf5BkNPwL256vQ==",
   "success": true,
-  "projectFilePath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Api/Gil.ApiDotNet7.Api.csproj",
+  "projectFilePath": "/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Api/Gil.ApiDotNet7.Api.csproj",
   "expectedPackageFiles": [
+    "/home/gilson/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
     "/home/gilson/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "/home/gilson/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "/home/gilson/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.5/microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",

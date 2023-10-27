@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Gil.ApiDotNet7.Domain/1.0.0": {
+        "runtime": {
+          "Gil.ApiDotNet7.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Gil.ApiDotNet7.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

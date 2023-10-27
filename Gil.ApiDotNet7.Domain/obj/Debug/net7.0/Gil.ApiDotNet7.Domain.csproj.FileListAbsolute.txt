@@ -1,0 +1,12 @@
+/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Domain/obj/Debug/net7.0/Gil.ApiDotNet7.Domain.csproj.AssemblyReference.cache
+/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Domain/obj/Debug/net7.0/Gil.ApiDotNet7.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Domain/obj/Debug/net7.0/Gil.ApiDotNet7.Domain.AssemblyInfoInputs.cache
+/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Domain/obj/Debug/net7.0/Gil.ApiDotNet7.Domain.AssemblyInfo.cs
+/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Domain/obj/Debug/net7.0/Gil.ApiDotNet7.Domain.csproj.CoreCompileInputs.cache
+/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Domain/bin/Debug/net7.0/Gil.ApiDotNet7.Domain.deps.json
+/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Domain/bin/Debug/net7.0/Gil.ApiDotNet7.Domain.dll
+/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Domain/bin/Debug/net7.0/Gil.ApiDotNet7.Domain.pdb
+/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Domain/obj/Debug/net7.0/Gil.ApiDotNet7.Domain.dll
+/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Domain/obj/Debug/net7.0/refint/Gil.ApiDotNet7.Domain.dll
+/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Domain/obj/Debug/net7.0/Gil.ApiDotNet7.Domain.pdb
+/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Domain/obj/Debug/net7.0/ref/Gil.ApiDotNet7.Domain.dll
