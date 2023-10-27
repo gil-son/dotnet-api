@@ -26,11 +26,11 @@ CREATE TABLE IF NOT EXISTS tb_product (
 
 CREATE TABLE IF NOT EXISTS tb_purchase (
     "c_id_purchase" SERIAL PRIMARY KEY,
-    "c_id_product" integer,
-    "c_id_person" integer,
-    "c_data_purchase" date
-    CONSTRAINT FK_PERSON_PURCHASE FOREIGN KEY(c_id_person) references person(c_id_person),
-    CONSTRAINT FK_PRODUCT_PURCHASE FOREIGN KEY(c_id_product) references person(c_id_product)
+    "c_id_product" int,
+    "c_id_person" int,
+    "c_data_purchase" date,
+    CONSTRAINT FK_PERSON_PURCHASE FOREIGN KEY(c_id_person) references tb_person(c_id_person),
+    CONSTRAINT FK_PRODUCT_PURCHASE FOREIGN KEY(c_id_product) references tb_product(c_id_product)
 );
 
 ```
