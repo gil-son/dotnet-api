@@ -5,7 +5,7 @@ using Gil.ApiDotNet7.Infra.Data.Context;
 namespace Gil.ApiDotNet7.Domain.Repositories
 {
 
-    public class PersonRepository : IPersonRepositories
+    public class PersonRepository : IPersonRepository
     {
 
         private readonly ApplicationDbContext _db;

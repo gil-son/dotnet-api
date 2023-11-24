@@ -11,7 +11,7 @@ namespace Gil.ApiDotNet7.Domain.Entities
         public decimal Price { get; private set; }
         public ICollection<Purchase> Purchases { get;  set; }
         
-        Product(string name, string codErp, decimal price)
+        public Product(string name, string codErp, decimal price)
         {
             Validation(name, codErp, price);
         }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+tDAi5Jy4WqZsesLolU0ImzhNHl6nF4XbgmtKOBlKSvLCT0TWaVt/UqwYW+AYjcP+GIxTTa7FFRWzQWLdkYmvw==",
+  "dgSpecHash": "L1MpXXfgLnvxV+a6mtcmtjaITDweIbf5VjUetMX7LLDSrmXzAyWWdHHn2WWmANrVJVrQp9Dkmj+jcCRQUytFDQ==",
   "success": true,
   "projectFilePath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj",
   "expectedPackageFiles": [
+    "/home/gilson/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
     "/home/gilson/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "/home/gilson/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.5/microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "/home/gilson/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.5/microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
