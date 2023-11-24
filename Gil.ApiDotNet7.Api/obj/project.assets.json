@@ -5851,11 +5851,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Api/Gil.ApiDotNet7.Api.csproj",
+      "projectUniqueName": "/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Api/Gil.ApiDotNet7.Api.csproj",
       "projectName": "Gil.ApiDotNet7.Api",
-      "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Api/Gil.ApiDotNet7.Api.csproj",
+      "projectPath": "/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Api/Gil.ApiDotNet7.Api.csproj",
       "packagesPath": "/home/gilson/.nuget/packages/",
-      "outputPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Api/obj/",
+      "outputPath": "/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gilson/.nuget/NuGet/NuGet.Config"
@@ -5864,14 +5864,15 @@
         "net7.0"
       ],
       "sources": {
+        "/usr/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj": {
-              "projectPath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj"
+            "/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj": {
+              "projectPath": "/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj"
             }
           }
         }
@@ -5914,7 +5915,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "L1MpXXfgLnvxV+a6mtcmtjaITDweIbf5VjUetMX7LLDSrmXzAyWWdHHn2WWmANrVJVrQp9Dkmj+jcCRQUytFDQ==",
+=======
+  "dgSpecHash": "fidpMxCcNwcLfEGYB/IvcK7hXuxywJ9NyMaccw7IC6djqNpH61+VRhkxdICAu5cA2l1CMhvFwi3Ydgf7OxQakQ==",
+>>>>>>> 65dd3e9452faca67f2fb5cfadc156109368dd062
   "success": true,
-  "projectFilePath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj",
+  "projectFilePath": "/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Infra.IoC/Gil.ApiDotNet7.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "/home/gilson/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
     "/home/gilson/.nuget/packages/microsoft.entityframeworkcore/7.0.5/microsoft.entityframeworkcore.7.0.5.nupkg.sha512",

@@ -4,10 +4,10 @@ namespace Gil.ApiDotNet7.Domain.Entities
 {
     public sealed class Person
     {
-        public int Id { get; private set; }
-        public string Name { get; private set; }
-        public string Document { get; private set; }
-        public string Phone { get; private set; }
+        public int? Id { get; private set; }
+        public string? Name { get; private set; }
+        public string? Document { get; private set; }
+        public string? Phone { get; private set; }
         public ICollection<Purchase> Purchases { get;  set; }
 
         public Person(string document, string name, string phone)
@@ -15,9 +15,10 @@ namespace Gil.ApiDotNet7.Domain.Entities
             Validation(document, name, phone);
         }
 
-        public Person(int id, string document, string phone)
+        public Person(int id, string document, string name, string phone)
         {
-            // DomainValidationException.When(id < 0, "Is required an Id more than zero");
+            
+            DomainValidationException.When(id < 0, "Id must be more than zero");
             Id = id;
             Validation(document, name, phone);
 

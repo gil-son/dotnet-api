@@ -7,8 +7,8 @@ namespace Gil.ApiDotNet7.Infra.Data.Maps
     public class PersonMap : IEntityTypeConfiguration<Person>
     {
          /* The entity required be mapped. 
-           If the name of properties from entity is different than properties from database
-           Is necessary use Maps to map
+           If the names of properties from entity is different than properties from database
+           Is necessary use Maps to map the differents names
         */
         public void Configure(EntityTypeBuilder<Person> builder)
         {

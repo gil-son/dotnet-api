@@ -9,7 +9,7 @@ namespace Gil.ApiDotNet7.Infra.Data.Context
         {}
 
         /* The entity required be mapped. 
-           If the name of properties from entity is different than properties from database
+           If the name of properties from entity are different than properties from database
            Is necessary use Maps to map
         */
         public DbSet<Person> People { get; set; }

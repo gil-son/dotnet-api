@@ -2,7 +2,8 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Gil.ApiDotNet7.Domain.Entities;
 using Gil.ApiDotNet7.Infra.Data.Context;
-namespace Gil.ApiDotNet7.Domain.Repositories
+using Gil.ApiDotNet7.Domain.Repositories;
+namespace Gil.ApiDotNet7.Infra.Data.Repositories
 {
 
     public class PersonRepository : IPersonRepository

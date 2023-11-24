@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "6CcQc1rHCkUccnWZtB4sXFmdwFvw+ZUZn0sm3QYdlycJfeVgYr4ejef8sByAgk9t5MzHh5xw24UGL4q/2VqZVA==",
+=======
+  "dgSpecHash": "Cspx4gUvRFz8GUKasbYL7KyjyK+Pg7+TBWDwQhyxEv+LlB9cbiWx2ZhVVe36F+zG7EgTfBsesf5BkNPwL256vQ==",
+>>>>>>> 65dd3e9452faca67f2fb5cfadc156109368dd062
   "success": true,
-  "projectFilePath": "/home/gilson/Documents/dotnet-api/Gil.ApiDotNet7.Api/Gil.ApiDotNet7.Api.csproj",
+  "projectFilePath": "/home/gilson/repositories/dotnet-api/Gil.ApiDotNet7.Api/Gil.ApiDotNet7.Api.csproj",
   "expectedPackageFiles": [
     "/home/gilson/.nuget/packages/fluentvalidation/11.5.2/fluentvalidation.11.5.2.nupkg.sha512",
     "/home/gilson/.nuget/packages/microsoft.aspnetcore.openapi/7.0.5/microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",

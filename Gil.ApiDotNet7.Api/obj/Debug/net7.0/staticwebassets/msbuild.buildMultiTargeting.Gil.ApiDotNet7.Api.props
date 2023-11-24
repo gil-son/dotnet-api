@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/Gil.ApiDotNet7.Api.props" />
+</Project>

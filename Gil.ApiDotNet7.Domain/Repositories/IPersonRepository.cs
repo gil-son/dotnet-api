@@ -1,4 +1,3 @@
-using System;
 using Gil.ApiDotNet7.Domain.Entities;
 namespace Gil.ApiDotNet7.Domain.Repositories
 {
